@@ -42,9 +42,24 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // https://google-fonts.nuxtjs.org
+    '@nuxtjs/google-fonts',
+    // https://www.npmjs.com/package/@nuxtjs/fontawesome
+    '@nuxtjs/fontawesome'
   ],
-
+  fontawesome: {
+    icons: {
+      brands: ['faLinkedin', 'faDev', 'faGithub']
+    }
+  },
+  googleFonts: {
+    families: {
+      Roboto: true,
+      'Source+Code+Pro': true,
+      'Kaushan Script': true
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios

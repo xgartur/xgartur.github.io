@@ -1,5 +1,6 @@
-<template>
-  <Tutorial />
+<template lang="pug">
+  div
+    hero-home
 </template>
 
 <script>
