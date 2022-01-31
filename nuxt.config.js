@@ -21,6 +21,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  generate: {
+    dir: 'docs', // gh_pages/ instead of dist/
+    subFolders: false // HTML files are generated according to the route path
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
